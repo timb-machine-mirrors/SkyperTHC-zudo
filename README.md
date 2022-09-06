@@ -28,3 +28,5 @@ All shell scripts source ./lib/funcs. The lib contain bash functions for downloa
 
 Things to consider:
 1. If we can not determine DISTRO then we should try to run all distro's. 
+2. Might be cool if all exploits work standalone (outside zudo) as well.
+3. 
