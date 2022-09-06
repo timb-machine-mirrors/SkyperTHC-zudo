@@ -18,7 +18,7 @@ File Hirachy
   
 The user only ever needs directories prefixed wth `+`. Directories with `-` are for remote downloading and directories with `+` are for developers (but the user never needs to build the exploits as we do this for him - pre compiled static binaries)
 
-Most of our design work will be in `./db/<CVE><name>/'. This could be `./db/CVE-2021-4034-PwnKit-2/` as an example. Thereunder it's unified structure for the `zudo` script to include:
+Most of our design work will be in `./db/<CVE><name>/`. This could be `./db/CVE-2021-4034-PwnKit-2/` as an example. Thereunder it's unified structure for the `zudo` script to include:
 
 conf.sh - Contains list of distro's and architectures for which static binaries exists.
 check.sh - Return 0 if local system is vulnerable.
